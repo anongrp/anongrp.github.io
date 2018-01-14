@@ -94,6 +94,9 @@ nav ul li a{
 	margin-left: 95px;
 	display: inline-block;
 }
+#andb_sec:hover{
+	transform: scale(1.05);
+}
 #tget_sec{
 	width: 400px;
 	height: 370px;
@@ -101,12 +104,18 @@ nav ul li a{
 	margin-left: 30px;
 	display: inline-block;
 }
+#tget_sec:hover{
+	transform: scale(1.05);
+}
 #lucid_sec{
 	width: 400px;
 	height: 370px;
 	margin: 10px;
 	margin-left: 30px;
 	display: inline-block;
+}
+#lucid_sec:hover{
+	transform: scale(1.05);
 }
 #project_section div{
 	background-color: #e7e7e7;
