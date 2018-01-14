@@ -12,6 +12,7 @@ header div{
 header div img{
 	width: 350px;
 	height: 170px;
+	transition-duration: 2s;
 	margin: 10px 10px 10px 50px;
 }
 header div img:hover{
@@ -105,6 +106,7 @@ nav ul li a{
 	text-align: center;
 	border-radius: 20px 20px 0px 0px;
 	margin-top: 20px;
+	cursor: pointer;
 }
 #project_section div h2:hover{
 	background-color: red;
@@ -123,3 +125,142 @@ nav ul li a{
 	border-radius: 20px;
 	border-color: #03A9F4;
 }
+#andb_detail{
+	height: 220px;
+}
+#andb_detail div{
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 220px;
+	/*background-color: #e7e7e7;*/
+	border-radius: 50px 50px 0px 0px;
+}
+#andb_detail div h2{
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+	margin-left: 1px;
+	margin-top: 0px;
+	background-color: #03A9F4;
+	color: white;
+	border-radius: 90px 80px 0px 0px;
+	text-align: center;
+	display: inline-block;
+	transition-duration: 1s;
+	animation-name: project_detail_feed_anim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate-reverse;
+	animation-timing-function: linear;
+}
+#andb_detail div h2:hover {
+	background-color: red;
+	cursor:pointer;
+	transform: scale(1.1);
+}
+#andb_detail div p{
+	
+	float: right;
+	margin: 0px 0px 20px;
+	text-align: justify;
+	padding: 10px;
+	border: 0.5px solid #03A9F4;
+	background-color: #e7e7e7;
+}
+
+#tget_detail{
+	height: 220;
+}
+#tget_detail div{
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 220px;
+	/*background-color: #e7e7e7;*/
+	border-radius: 50px 50px 0px 0px;
+}
+#tget_detail div h2{
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+	margin-left: 1px;
+	margin-top: 0px;
+	background-color: #03A9F4;
+	color: white;
+	border-radius: 90px 80px 0px 0px;
+	text-align: center;
+	display: inline-block;
+	float: right;
+	transition-duration: 1s;
+	animation-name: project_detail_feed_anim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate-reverse;
+	animation-timing-function: linear;
+}
+#tget_detail div h2:hover {
+	background-color: red;
+	cursor:pointer;
+}
+#tget_detail div p{
+	
+	float: right;
+	margin: 0px 0px 20px;
+	text-align: justify;
+	padding: 10px;
+	border: 0.5px solid #03A9F4;
+	background-color: #e7e7e7;
+}
+
+#lucid_detail{
+	height: 220;
+}
+#lucid_detail div{
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 220px;
+	/*background-color: #e7e7e7;*/
+	border-radius: 50px 50px 0px 0px;
+}
+#lucid_detail div h2{
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+	margin-left: 1px;
+	margin-top: 0px;
+	background-color: #03A9F4;
+	color: white;
+	border-radius: 90px 80px 0px 0px;
+	text-align: center;
+	display: inline-block;
+	transition-duration: 1s;
+	animation-name: project_detail_feed_anim;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate-reverse;
+	animation-timing-function: linear;
+}
+#lucid_detail div h2:hover {
+	background-color: red;
+	cursor:pointer;
+}
+#lucid_detail div p{
+	
+	float: right;
+	margin: 0px 0px 20px;
+	text-align: justify;
+	padding: 10px;
+	border: 0.5px solid #03A9F4;
+	background-color: #e7e7e7;
+}
+@keyframes project_detail_feed_anim{
+	from{
+		transform: scale(1);
+		background-color: #03A9F4;
+	}
+	to{
+		transform: scale(1.07);
+		background-color: red;
+	}
+}
+
+
