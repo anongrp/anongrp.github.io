@@ -7,30 +7,11 @@
   background: linear-gradient(to right, rgba(47,112,173,1) 0%, rgba(10,128,255,1) 100%);*/
   background: linear-gradient(270deg, #005eff, #43a9ff, #6c00ff, #161616);
   background-size: 800% 800%;
-
-  -webkit-animation: AnimationName 29s ease infinite;
-  -moz-animation: AnimationName 29s ease infinite;
-  -o-animation: AnimationName 29s ease infinite;
   animation: AnimationName 10s ease infinite;
 }
 
 
 /*Main Background Just For Some Time Ok Team Member's*/
-@-webkit-keyframes AnimationName {
-   0%{background-position:0% 50%}
-   50%{background-position:100% 50%}
-   100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-   0%{background-position:0% 50%}
-   50%{background-position:100% 50%}
-   100%{background-position:0% 50%}
-}
-@-o-keyframes AnimationName {
-   0%{background-position:0% 50%}
-   50%{background-position:100% 50%}
-   100%{background-position:0% 50%}
-}
 @keyframes AnimationName {
    0%{background-position:0% 50%}
    50%{background-position:100% 50%}
