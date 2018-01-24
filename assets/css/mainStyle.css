@@ -5,15 +5,52 @@
   min-height: 100%;
   /*background-color: red;
   background: linear-gradient(to right, rgba(47,112,173,1) 0%, rgba(10,128,255,1) 100%);*/
+}
+html,body{
   background: linear-gradient(270deg, #005eff, #43a9ff, #6c00ff, #161616);
   background-size: 800% 800%;
   animation: homeBgAnim 10s ease infinite;
 }
-
-
 /*Main Background Just For Some Time Ok Team Member's*/
 @keyframes homeBgAnim {
    0%{background-position:0% 50%}
    50%{background-position:100% 50%}
    100%{background-position:0% 50%}
+}
+
+/*Main Styling Start*/
+.wrapper{
+  margin: 20px;
+  width: 100%;
+  min-height: 100%;
+
+}
+#logo_cont{
+  border: 1px solid red;
+  width: 250px;
+  display: inline-block;
+}
+nav ul{
+  width: 600px;
+  float: right;
+  border: 1px solid red;
+}
+nav ul li{
+  width: 100px;
+  height: 50px;
+  background-color: #2a2e37;
+  list-style: none;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  margin: 10px;
+  float: left;
+}
+ul li a{
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+ul li a:hover{
+  transform: scale(1.1);
 }
