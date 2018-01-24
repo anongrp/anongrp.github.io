@@ -26,7 +26,6 @@ html,body{
 
 }
 #logo_cont{
-  border: 1px solid red;
   width: 250px;
   display: inline-block;
 }
@@ -39,8 +38,6 @@ nav{
 nav ul{
   width: 600px;
   float: right;
-  border: 1px solid red;
-
 }
 nav ul li{
   width: 100px;
@@ -58,14 +55,11 @@ ul li a{
   display: block;
   text-decoration: none;
 }
-#product-pane:hover #dropdown_nav_pane{
-   display: block;
-   color: red;
-}
 ul li a:hover{
   transform: scale(1.1);
 }
 #dropdown_nav_pane{
+  transition: all 1s ease;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
   width: 700px;
@@ -75,4 +69,7 @@ ul li a:hover{
   right: 150px;
   top: 65px;
   display: none;
+}
+.show{
+  display: block;
 }
