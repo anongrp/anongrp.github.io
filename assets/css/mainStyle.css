@@ -7,12 +7,12 @@
   background: linear-gradient(to right, rgba(47,112,173,1) 0%, rgba(10,128,255,1) 100%);*/
   background: linear-gradient(270deg, #005eff, #43a9ff, #6c00ff, #161616);
   background-size: 800% 800%;
-  animation: AnimationName 10s ease infinite;
+  animation: homeBgAnim 10s ease infinite;
 }
 
 
 /*Main Background Just For Some Time Ok Team Member's*/
-@keyframes AnimationName {
+@keyframes homeBgAnim {
    0%{background-position:0% 50%}
    50%{background-position:100% 50%}
    100%{background-position:0% 50%}
