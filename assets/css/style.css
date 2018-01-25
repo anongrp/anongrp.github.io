@@ -30,6 +30,12 @@ html,body{
 #nav_wrapper div{
   float: left;
 }
+#nav_wrapper h1{
+  height: 20%;
+}
+#nav_wrapper p{
+  height: 80%;
+}
 #nav-products{
   background-color: #1565C0;
   border-radius: 10px;
@@ -87,12 +93,10 @@ html,body{
   width: 20%;
   height: 60%;
   display: inline-block;
-  top: 30%;
   left: 40%;
-  top: 5%;
+  top: 2%;
 }
 #footer{
-  border: 1px solid red;
   width: 15%;
   height: 3%;
   position: absolute;
