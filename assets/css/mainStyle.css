@@ -7,9 +7,10 @@
   background: linear-gradient(to right, rgba(47,112,173,1) 0%, rgba(10,128,255,1) 100%);*/
 }
 html,body{
-  background: linear-gradient(270deg, #005eff, #43a9ff, #6c00ff, #161616);
+  /*background: linear-gradient(270deg, #005eff, #43a9ff, #6c00ff, #161616);
   background-size: 800% 800%;
-  animation: homeBgAnim 10s ease infinite;
+  animation: homeBgAnim 10s ease infinite;*/
+  background: #e7e7e7;
 }
 
 /*Main Background Just For Some Time Ok Team Member's*/
@@ -43,7 +44,8 @@ nav ul{
 nav ul li{
   width: 100px;
   height: 50px;
-  background-color: #2a2e37;
+  /*background-color: #004df9;*/
+
   list-style: none;
   border-radius: 10px;
   text-align: center;
@@ -52,6 +54,9 @@ nav ul li{
   float: left;
   transition: all 1s ease;
 }
+ul li:hover{
+  transform: scale(1.1);
+}
 ul li a{
   color: white;
   display: block;
@@ -59,7 +64,6 @@ ul li a{
 }
 ul li a:hover{
   transform: scale(1.1);
-  background-color: rgba(0,0,0,0.0);
 }
 #dropdown_nav_pane{
   transition: all 2s ease;
@@ -74,7 +78,19 @@ ul li a:hover{
 }
 #product-nav:hover div{
   display: block;
+  right: 270px;
+  animation-name: openAnim;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }
 .show{
   display: block;
+}
+@@keyframes openAnim {
+  0%{
+    transform: scale(0.0);
+  }
+  100%{
+    transform: scale(1.0);
+  }
 }
