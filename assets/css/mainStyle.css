@@ -11,6 +11,7 @@ html,body{
   background-size: 800% 800%;
   animation: homeBgAnim 10s ease infinite;
 }
+
 /*Main Background Just For Some Time Ok Team Member's*/
 @keyframes homeBgAnim {
    0%{background-position:0% 50%}
@@ -49,6 +50,7 @@ nav ul li{
   line-height: 50px;
   margin: 10px;
   float: left;
+  transition: all 1s ease;
 }
 ul li a{
   color: white;
@@ -60,16 +62,18 @@ ul li a:hover{
   background-color: rgba(0,0,0,0.0);
 }
 #dropdown_nav_pane{
-  transition: all 1s ease;
+  transition: all 2s ease;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
   width: 700px;
   background-color: white;
   height: 250px;
   position: relative;
-  right: 150px;
-  top: 65px;
+  right: 250px;
   display: none;
+}
+#product-nav:hover div{
+  display: block;
 }
 .show{
   display: block;
