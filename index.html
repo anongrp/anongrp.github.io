@@ -6,8 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Anon Grp</title>
   <link rel="stylesheet" href="assets/css/style.css"/>
-  <script src="assets/js/jquery.js"></script>
-  <script src="assets/js/script.js"></script>
   </script>
 </head>
 <body>
@@ -20,8 +18,8 @@
         <h1>Products</h1>
         <p>Click Me</p>
       </div>
-      <div id="nav-contribute">
-        <h1>Contribute</h1>
+      <div id="nav-contribute" >
+        <h1><a>Contribute</a></h1>
       </div>
       <div id="nav-services">
         <h1>Services</h1>
@@ -33,10 +31,59 @@
         <h1>About Grp</h1>
       </div>
     </div>
-
+     </div>
+    <div id="product-model-wall">
+         <div id="product-model">
+             <div id="product-model-heading">
+                 <h1>Products</h1>
+                 <a href="#" id="close">X</a>
+             </div>
+             <div id="product-model-body">
+                     <div>
+                         <h2>AnDatabase</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim explicari, quod quaeritur, non potest. Primum Theophrasti, Strato, physicum se voluit; Nulla erit controversia. At iam decimum annum in spelunca iacet. Indicant pueri, in quibus ut in speculis natura cernitur. Duo Reges: constructio interrete. </p>
+                     </div>
+                     <div>
+                         <h2>AnDatabase</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim explicari, quod quaeritur, non potest. Primum Theophrasti, Strato, physicum se voluit; Nulla erit controversia. At iam decimum annum in spelunca iacet. Indicant pueri, in quibus ut in speculis natura cernitur. Duo Reges: constructio interrete. </p>
+                     </div>
+                     <div>
+                         <h2>AnDatabase</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim explicari, quod quaeritur, non potest. Primum Theophrasti, Strato, physicum se voluit; Nulla erit controversia. At iam decimum annum in spelunca iacet. Indicant pueri, in quibus ut in speculis natura cernitur. Duo Reges: constructio interrete. </p>
+                     </div>
+                     <div>
+                         <h2>AnDatabase</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim explicari, quod quaeritur, non potest. Primum Theophrasti, Strato, physicum se voluit; Nulla erit controversia. At iam decimum annum in spelunca iacet. Indicant pueri, in quibus ut in speculis natura cernitur. Duo Reges: constructio interrete. </p>
+                     </div>
+                     <div>
+                         <h2>AnDatabase</h2>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim explicari, quod quaeritur, non potest. Primum Theophrasti, Strato, physicum se voluit; Nulla erit controversia. At iam decimum annum in spelunca iacet. Indicant pueri, in quibus ut in speculis natura cernitur. Duo Reges: constructio interrete. </p>
+                     </div>
+             </div>
+         </div>
+     </div>
     <div id="footer">
       <p><em>Copyright 2018 Anon Grp</em></p>
     </div>
-  </div>
+    
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        
+        var products = document.getElementById("nav-products");
+        var close = document.getElementById("close");
+        products.addEventListener('click',function(){
+           openProducts(); 
+        });
+        close.addEventListener('click',function(){
+            hideIt();
+        });
+        function openProducts(){
+            $("#product-model-wall").fadeIn(500);
+        }
+        function hideIt(){
+            $("#product-model-wall").fadeOut(500);
+        }
+    </script>
 </body>
 </html>
