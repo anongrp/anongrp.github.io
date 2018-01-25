@@ -56,6 +56,9 @@ ul li:hover{
   transform: scale(1.05);
   background-color: #ef621d;
 }
+ul li:active{
+  transform: scale(1.0);
+}
 ul li:hover a{
   color: #fff;
 }
@@ -79,7 +82,7 @@ ul li a{
   display: block;
   right: 550px;
   animation-name: openAnim;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: 1;
 }
 #dropdown_nav_pane div{
@@ -107,9 +110,9 @@ ul li a{
 }
 @@keyframes openAnim {
   0%{
-    transform: scale(0.0);
+    transform: translateY(200);
   }
   100%{
-    transform: scale(1.0);
-  }
+    transform: translateY(0);
+  }  
 }
