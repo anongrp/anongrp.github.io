@@ -157,6 +157,7 @@ body {
     box-shadow: 0 0 10px black;
     border-radius: 10px;
     transform: all 0.5s ease;
+    transform: scale(0.0);
 }
 #product-model-heading{
     border: 2px solid blue;
@@ -183,7 +184,7 @@ body {
     margin-top: 1%;
     width: 20%;
     float: left;
-    
+
 }
 
 #product-model-body div h2{

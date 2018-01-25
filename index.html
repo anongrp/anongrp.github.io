@@ -65,21 +65,23 @@
     <div id="footer">
       <p><em>Copyright 2018 Anon Grp</em></p>
     </div>
-    
+
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/script.js"></script>
     <script>
-        
+
         var products = document.getElementById("nav-products");
         var close = document.getElementById("close");
         products.addEventListener('click',function(){
-           openProducts(); 
+           openProducts();
         });
         close.addEventListener('click',function(){
             hideIt();
         });
         function openProducts(){
-            $("#product-model-wall").fadeIn(500);
+            $("#product-model-wall").fadeIn(500,function(){
+              $('#product-model').css({'transform':'scale(1.0)'});
+            });
         }
         function hideIt(){
             $("#product-model-wall").fadeOut(500);
