@@ -68,19 +68,39 @@ ul li a{
   transition: all 2s ease;
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
-  width: 700px;
+  width: 999px;
   background-color: white;
-  height: 250px;
+  height: 350px;
   position: relative;
-  right: 250px;
+  right: 520px;
   display: none;
 }
 #product-nav:hover div{
   display: block;
-  right: 270px;
+  right: 550px;
   animation-name: openAnim;
   animation-duration: 2s;
   animation-iteration-count: 1;
+}
+#dropdown_nav_pane div{
+  border: 1px solid red;
+  border-top: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  width: 199px;
+  float: left;
+  transition: all 1s ease;
+}
+#dropdown_nav_pane div h2{
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+#dropdown_nav_pane div hr{
+  color: #dae605;
+}
+#dropdown_nav_pane div:hover{
+  background-color: #c104f5;
+  color: white;
 }
 .show{
   display: block;
